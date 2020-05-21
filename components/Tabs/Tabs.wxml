@@ -1,0 +1,6 @@
+<!--components/Tabs/Tabs.wxml-->
+<view class="tabs">
+    <view class="tabs_title">
+        
+    </view>
+</view>

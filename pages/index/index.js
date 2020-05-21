@@ -16,30 +16,30 @@ Page({
   //获取轮播图数据
   getSwiperList(){
     request({
-      url: "https://api-hmugo-web.itheima.net/api/public/v1/home/swiperdata"
+      url: "/home/swiperdata"
     }).then(res => {
       this.setData({
-        swiperList: res.data.message
+        swiperList: res
       })
     })
   },
   //获取导航数据
   getCateList(){
     request({
-      url: "https://api-hmugo-web.itheima.net/api/public/v1/home/catitems"
+      url: "/home/catitems"
     }).then(res => {
       this.setData({
-        catesList: res.data.message
+        catesList: res
       })
     })
   },
   //获取楼层数据
   getFloorList(){
     request({
-      url: "https://api-hmugo-web.itheima.net/api/public/v1/home/floordata"
+      url: "/home/floordata"
     }).then(res => {
       this.setData({
-        floorList: res.data.message
+        floorList: res
       })
     })
   }

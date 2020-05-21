@@ -67,6 +67,14 @@
 					"id": -1,
 					"name": "category",
 					"pathName": "pages/category/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "商品列表",
+					"pathName": "pages/goods_list/index",
+					"query": "cid=5",
 					"scene": null
 				}
 			]
