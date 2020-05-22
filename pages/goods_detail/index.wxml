@@ -1,2 +1,10 @@
 <!--pages/goods_detail/index.wxml-->
-<text>pages/goods_detail/index.wxml</text>
+<view class="detail">
+    <swiper indicator-dots autoplay circular>
+        <swiper-item 
+        wx:for="{{pics}}"
+        wx:key="index">
+            <image src="{{item.pics_mid}}" mode="widthFix"></image>
+        </swiper-item>
+    </swiper>
+</view>
